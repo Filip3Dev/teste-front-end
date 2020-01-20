@@ -1,6 +1,4 @@
-![Easynvest](https://user-images.githubusercontent.com/8808895/46966234-81191d00-d083-11e8-8da3-63d1f12e4365.png)
-
-# Teste de Front-end Easynvest
+# Teste de Front-end
 Este teste é apresentado aos candidatos as vagas de desenvolvimento Front-end para avaliar os quesitos técnicos.
 
 ### O Desafio
@@ -16,7 +14,7 @@ Seu objetivo é criar um simples app que deve conter duas páginas, uma que exib
  - Deve ser possível criar, listar e excluir os dados cadastrados pelo formulário;
  - Os inputs de texto e botão devem ter a aparência conforme o guia de estilo abaixo (com validações);
  - Fazer a persistência dos dados no `localStorage` ou `IndexedDB`;
- - Não é permitido a utilização de nenhum framework ou o uso de qualquer biblioteca (exceto para testes unitário e tasks de build), recomendado uso de ECMAScript 6+;
+ - Não é permitido a utilização de nenhum framework alem de Vue.Js, recomendado uso de ECMAScript 6+;
 
 Para ter o estado inicial da lista de usuário utilizar este recurso abaixo:
 
@@ -94,11 +92,9 @@ Lista local:
 ### Plus:
  - A página ser responsiva;
  - Permitir edição;
- - Uso de pré-processador css;
- - Testes End to End;
+ - Uso de pré-processador css, preferencia SASS;
 
 ### O que esperamos:
- - Testes, no mínimo testes unitários;
  - Padrão de Projeto e boas práticas de Orientação a Objetos;
  - Utilizar ECMAScript 6+;
  - Criar um passo a passo de como rodar sua aplicação [(Sugestão)](https://github.com/wearehive/project-guidelines/blob/master/README.sample.md);
