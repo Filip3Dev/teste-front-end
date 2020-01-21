@@ -9,42 +9,13 @@ Seu objetivo é criar um simples app que deve conter duas páginas, uma que exib
 * CPF
 * Telefone
 * Email
+* Frase de Segurança
 
 ### Pré-requisitos: 
- - Deve ser possível criar, listar e excluir os dados cadastrados pelo formulário;
+ - Deve ser possível criar e listar os dados cadastrados pelo formulário;
  - Os inputs de texto e botão devem ter a aparência conforme o guia de estilo abaixo (com validações);
  - Fazer a persistência dos dados no `localStorage` ou `IndexedDB`;
  - Não é permitido a utilização de nenhum framework alem de Vue.Js, recomendado uso de ECMAScript 6+;
-
-Para ter o estado inicial da lista de usuário utilizar este recurso abaixo:
-
-> GET https://private-21e8de-rafaellucio.apiary-mock.com/users
-
-Response:
-
-```json
-
-[
-  {
-    "name": "My name 1",
-    "cpf": "04080757247",
-    "phone": "11987654321",
-    "email": "myemail1@test.com.br"
-  },
-  {
-    "name": "My name 2",
-    "cpf": "77797584192",
-    "phone": "11987654321",
-    "email": "myemail2@test.com.br"
-  },
-  {
-    "name": "My name 3",
-    "cpf": "45486737688",
-    "phone": "11987654321",
-    "email": "myemail3@test.com.br"
-  }
-]
-```
 
 A partir deste ponto utilizar o `localStorage/IndexedDB` para persistir localmente as informações.
 
@@ -55,7 +26,8 @@ Save:
   "name": "My name 4",
   "cpf": "74668869066",
   "phone": "11987654321",
-  "email": "myemail4@test.com.br"
+  "email": "myemail4@test.com.br",
+  "phare": "testermind"
 }
 ```
 
@@ -66,25 +38,29 @@ Lista local:
     "name": "My name 1",
     "cpf": "04080757247",
     "phone": "11987654321",
-    "email": "myemail1@test.com.br"
+    "email": "myemail1@test.com.br",
+    "phare": "testermind"
   },
   {
     "name": "My name 2",
     "cpf": "77797584192",
     "phone": "11987654321",
-    "email": "myemail2@test.com.br"
+    "email": "myemail2@test.com.br",
+    "phare": "testermind"
   },
   {
     "name": "My name 3",
     "cpf": "45486737688",
     "phone": "11987654321",
-    "email": "myemail3@test.com.br"
+    "email": "myemail3@test.com.br",
+    "phare": "testermind"
   },
   {
     "name": "My name 4",
     "cpf": "74668869066",
     "phone": "11987654321",
-    "email": "myemail4@test.com.br"
+    "email": "myemail4@test.com.br",
+    "phare": "testermind"
   }
 ]
 ```
