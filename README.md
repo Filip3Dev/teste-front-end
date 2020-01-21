@@ -69,6 +69,8 @@ Lista local:
  - A página ser responsiva;
  - Permitir edição;
  - Uso de pré-processador css, preferencia SASS;
+ - Gerar uma build e publicar no ZEIT Now;
+ - Publicar o projeto no seu github pessoal.
 
 ### O que esperamos:
  - Padrão de Projeto e boas práticas de Orientação a Objetos;
